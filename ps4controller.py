@@ -31,8 +31,7 @@ class ps4controller(object):
                             "right_arrow": 14,
                             "touchpad": 15
                             }                       
-        # 0: Left analog horizonal, 1: Left Analog Vertical, 2: Right Analog Horizontal
-        # 3: Right Analog Vertical 4: Left Trigger, 5: Right Trigger
+    
         self.analog_keys = {0:0, 1:0, 2:0, 3:0, 4:-1, 5: -1 }
     
     @property
